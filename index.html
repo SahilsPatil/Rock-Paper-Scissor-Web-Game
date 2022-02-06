@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+
+<body id="body">
+  <div class="main">
+    <div class="logo_score">
+      <div class="logo">
+        <img src="Images/logo.svg" alt="">
+      </div>
+      <div class="score">
+        <div class="score_text">
+          SCORE
+        </div>
+        <div class="score_num" id="score_num">
+          12
+        </div>
+      </div>
+    </div>
+
+    <div class="buttons" id="buttons">
+      <div class="button" onclick="clicked(0)">
+        <div class="button_back"><img src="Images/icon-paper.svg" alt="paper"></div>
+      </div>
+      <div class="button"  onclick="clicked(1)">
+        <div class="button_back"><img src="Images/icon-scissors.svg" alt="scissors"></div>
+      </div>
+      <div class="button"  onclick="clicked(2)">
+        <div class="button_back"><img src="Images/icon-rock.svg" alt="rock"></div>
+      </div>
+    </div>
+
+    <div class="search_winner" id="search_winner">
+      <!-- <div class="you">
+        <div class="you_title">
+          YOU PICKED
+        </div>
+        <div class="you_button">
+          <div class="button2">
+            <div class="button_back"><img src="Images/icon-paper.svg" alt="paper"></div>
+          </div>
+        </div>
+      </div>
+      <div class="win_play">
+        <div class="win_or_lose">
+          YOU LOSE
+        </div>
+        <div class="play_again">
+          PLAY AGAIN
+        </div>
+      </div>
+      <div class="computer">
+        <div class="computer_title">
+          THE HOUSE PICKED
+        </div>
+        <div class="computer_button">
+          <div class="button2">
+            <div class="button_back"><img src="Images/icon-rock.svg" alt="rock"></div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <!-- <div class="search_winner_mob">
+      <div class="chooses">
+        <div class="you">
+          <div class="you_button">
+            <div class="button2">
+              <div class="button_back"><img src="Images/icon-paper.svg" alt="paper"></div>
+            </div>
+          </div>
+          <div class="you_title">
+            YOU PICKED
+          </div>
+        </div>
+        <div class="computer">
+          <div class="computer_button">
+            <div class="button2">
+              <div class="button_back"><img src="Images/icon-rock.svg" alt="rock"></div>
+            </div>
+          </div>
+          <div class="computer_title">
+            THE HOUSE PICKED
+          </div>
+        </div>
+      </div>
+      <div class="win_play">
+        <div class="win_or_lose">
+          YOU LOSE
+        </div>
+        <div class="play_again">
+          PLAY AGAIN
+        </div>
+      </div>
+
+    </div> -->
+
+    <div class="rules" id="rules">
+      RULES
+    </div>
+
+    <div class="rules_img" id="rules_img">
+      <div class="title_close">
+        <div class="title">
+          RULES
+        </div>
+        <div class="close" id="close">
+          <img src="Images/icon-close.svg" alt="">
+        </div>
+      </div>
+      <img src="Images/image-rules.svg" alt="">
+    </div>
+
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
